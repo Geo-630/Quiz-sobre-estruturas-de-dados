@@ -1,0 +1,96 @@
+.container__questoes {
+    display: reverse flex;
+    gap: 20px;
+    max-width: 1000px;
+    min-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-items: center;
+
+}
+
+.btn__verificar {
+    background-color: #f44d48;
+    color: #ffffff;
+    padding: 13px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background-color 0.3s, transform 0.2s;
+    border-style: none;
+    margin-top: 20px;
+}
+
+.btn__proximo {
+    background-color: #4fa933;
+    color: #ffffff;
+    padding: 13px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background-color 0.3s, transform 0.2s;
+    border-style: none;
+    margin-top: 20px;
+}
+
+.btn__voltar__inicial {
+    background-color: #67acda;
+    color: #ffffff;
+    padding: 13px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background-color 0.3s, transform 0.2s;
+    border-style: none;
+    margin-top: 20px;
+}
+
+#fundo0 {
+    margin: 20px 0px;
+    min-width: 990px;
+
+    &:hover {
+        border: 1px, solid, rgba(102, 102, 102, 0.342);
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+#fundo1 {
+    margin: 20px 0px;
+    min-width: 990px;
+
+    &:hover {
+        border: 1px, solid, rgba(102, 102, 102, 0.342);
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+#fundo2 {
+    margin: 20px 0px;
+    min-width: 990px;
+
+    &:hover {
+        border: 1px, solid, rgba(102, 102, 102, 0.342);
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+#fundo3 {
+    margin: 20px 0px;
+    min-width: 990px;
+
+    &:hover {
+        border: 1px, solid, rgba(102, 102, 102, 0.342);
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
